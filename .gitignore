@@ -1,3 +1,15 @@
+# Build directories
+Debug/
+Release/
+
+# STM32CubeIDE settings
+.settings/
+
+# Generated firmware/build outputs
+*.bin
+*.list
+*.cyclo
+
 # Prerequisites
 *.d
 
@@ -22,7 +34,7 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects
 *.dll
 *.so
 *.so.*
@@ -50,3 +62,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+.DS_Store
+Thumbs.db
